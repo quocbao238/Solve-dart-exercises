@@ -2,11 +2,6 @@
 import 'dart:math' as math;
 
 class Darts {
-  // Put your code here
-  double radiusScore10 = 1;
-  double radiusScore5 = 5;
-  double radiusScore1 = 10;
-
   int score(double x, double y) {
     final res = math.sqrt(square(x) + square(y));
     if (res > 10) return 0;
