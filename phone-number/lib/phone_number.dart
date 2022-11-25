@@ -41,7 +41,6 @@ class PhoneNumber {
       throw FormatException('incorrect number of digits');
     }
 
-    // > 10 beacause we already remove first charactor (1) when convert to digits
     if (_digitsOnly.length == 11) {
       throw FormatException('11 digits must start with 1');
     }
